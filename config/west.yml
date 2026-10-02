@@ -8,7 +8,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       revision: main
-      import: app/manifest/zephyr/west.yml
+      import: config/zephyr/west.yml
     - name: zmk-bakeneko60-go
       remote: cannonkeys
       revision: main
