@@ -9,7 +9,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-bakeneko60-go
+    - name: zmk-cannonkeys-keyboards
       remote: cannonkeys
       revision: main
   self:
