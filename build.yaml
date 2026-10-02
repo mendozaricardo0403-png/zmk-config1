@@ -8,6 +8,7 @@
 # board: [ "nice_nano" ]
 # shield: [ "corne_left", "corne_right" ]
 # include:
+#   - board: bakeneko60_go
 #   - board: bdn9_rev2
 #   - board: nice_nano
 #     shield: reviung41
