@@ -2,10 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: cannonkeys
+      url-base: https://github.com/cannonkeys
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/manifest/zephyr/west.yml
+    - name: zmk-bakeneko60-go
+      remote: cannonkeys
+      revision: main
   self:
     path: config
